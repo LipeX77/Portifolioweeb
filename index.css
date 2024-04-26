@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background: url(black.avif) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 400vh;
+}
+
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(black.avif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 380vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabeçalho a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.cabeçalho a:hover {
+    color: #28e276;
+    transition: 0.3s all;
+}
+
+.logo_letra i {
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border: 1px solid #28e276;
+    color: #28e276;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+button {
+    color: #28e276;
+    background: transparent;
+    border: 1px solid #28e276;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 170px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #28e276;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#container-text {
+    padding: 150px 400px 0 400px;
+    margin-top: 50px;
+    margin-bottom: 290px;
+}
+
+#text h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#text h1 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#text span {
+    color: #28e276;
+}
+
+#text p {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+#tecnologias {
+    padding: 120px 400px 0 300px;
+    margin-top: 10px;
+    margin-bottom: 260px;
+}
+
+#tecnologias h1 {
+    color: #28e276;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#tecnologias h2 {
+    color: #fff;
+    font-size: 25px;
+}
+
+#tecnologias h3 {
+    color: #28e276;
+}
+
+.flex {
+    display: flex;
+}
+
+#tecnologias .flex {
+    gap: 60px;
+}
+
+#tecnologias .tecnology,
+.p {
+    font-size: 20px;
+}
+
+#tecnologias .tecnology {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+#tecnologias .tecnology:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#experiências {
+    padding: 120px 400px 0 300px;
+}
+
+#experiências h1 {
+    color: #28e276;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#experiências li {
+    font-size: 30px;
+    color: #fff;
+    display: inline-table;
+    max-width: 100%;
+    margin-right: 245px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#experiências h2 {
+    color: #fff;
+    margin-top: 100px;
+}
+
+#experiências img {
+    width: 500px;
+    height: auto;
+    margin-left: 800px;
+}
+
+#contato {
+    padding: 120px 400px 0 300px;
+}
+
+#contato h1 {
+    color: #28e276;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#contato h2 {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#contato a {
+    color: #28e276;
+    font-size: 60px;
+    margin-right: 30px;
+}
+
+#email {
+    padding: 120px 400px 0 300px;
+    color: #fff;
+}
+
+#email h2 {
+    padding: 120px 400px 0 300px;
+    color: #fff;
+}
